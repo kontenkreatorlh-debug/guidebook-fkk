@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Guidebook Tutor FKK</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap">
+<style>
+:root{--bg:#f5f6f3;--card:#fff;--ink:#14272b;--mute:#58696d;--line:#d8dedb;--accent:#f2b705;--deep:#12343b;--ok:#1f8a5b;--warn:#c9760a;--no:#b8402f;--shot:#eef2f0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1b1e;--card:#162a2e;--ink:#e8eeed;--mute:#9bb0b3;--line:#2a4247;--deep:#091416;--shot:#1c3338}}
+:root[data-theme="dark"]{--bg:#0e1b1e;--card:#162a2e;--ink:#e8eeed;--mute:#9bb0b3;--line:#2a4247;--deep:#091416;--shot:#1c3338}
+*{box-sizing:border-box}html{scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2,h3,summary{font-family:Poppins,system-ui,sans-serif}
+header{background:var(--deep);color:#fff;padding:36px 20px 28px;border-bottom:10px solid var(--accent);background-image:repeating-linear-gradient(115deg,transparent 0 22px,rgba(242,183,5,.12) 22px 44px)}
+.wrap{max-width:1040px;margin:0 auto}
+header h1{margin:0 0 6px;font-size:clamp(26px,5vw,40px);line-height:1.15}
+header p{margin:0;color:#c5d6d8;max-width:60ch}
+.ver{display:inline-block;margin-top:14px;font-size:13px;background:rgba(255,255,255,.12);padding:3px 10px;border-radius:99px}
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 20px;padding-top:calc(10px + env(safe-area-inset-top,0px))}
+.bar .wrap{display:flex;gap:8px;flex-wrap:wrap}
+.bar input{flex:1 1 220px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit;font-size:15px}
+button{padding:9px 14px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:inherit;font-size:14px;cursor:pointer}
+button:hover{border-color:var(--accent)}button:focus-visible,summary:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+main{padding:22px 20px 60px}
+.layout{display:grid;grid-template-columns:210px 1fr;gap:28px}
+nav{position:sticky;top:78px;align-self:start;font-size:14px}
+nav a{display:block;padding:6px 10px;color:var(--mute);text-decoration:none;border-left:3px solid var(--line)}
+nav a:hover{color:var(--ink);border-color:var(--accent)}
+@media(max-width:820px){.layout{grid-template-columns:1fr}nav{display:none}}
+.legend{font-size:14px;color:var(--mute);margin:0 0 16px}
+details.sec{background:var(--card);border:1px solid var(--line);border-radius:10px;margin-bottom:12px;border-left:6px solid var(--accent)}
+details.sec>summary{font-size:19px;font-weight:700;padding:16px 18px;cursor:pointer;list-style:none;display:flex;gap:10px;align-items:center}
+summary::-webkit-details-marker{display:none}
+details.sec>summary::before,details.sub>summary::before{content:"+";font-weight:700;width:1.1em;color:var(--warn);flex:none}
+details[open]>summary::before{content:"\2212"}
+.body{padding:2px 18px 18px}
+details.sub{border-top:1px solid var(--line);padding:0}
+details.sub>summary{font-size:16px;font-weight:500;padding:12px 0;cursor:pointer;list-style:none;display:flex;gap:8px}
+details.sub>div{padding:0 0 14px 1.4em}
+.tag{font-family:system-ui,sans-serif;font-size:12px;font-weight:600;padding:2px 9px;border-radius:99px;margin-left:auto;white-space:nowrap;align-self:center}
+.t-ok{background:#dcf2e7;color:#12683f}.t-dr{background:#fdecc8;color:#7a4a04}.t-no{background:#f8dcd6;color:#8a2a1c}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .t-ok{background:#1b4a36;color:#a6e6c6}:root:not([data-theme="light"]) .t-dr{background:#58420f;color:#fbd98a}:root:not([data-theme="light"]) .t-no{background:#5b2a22;color:#f3b4a8}}
+.shot{border:2px dashed var(--line);background:var(--shot);border-radius:8px;padding:14px;margin:10px 0;color:var(--mute);font-size:13px;text-align:center}
+.shot b{display:block;color:var(--ink);font-size:14px}
+.shot img{max-width:100%;border-radius:6px}
+.check{border:1px solid var(--accent);border-radius:8px;padding:10px 14px;margin:10px 0;background:rgba(242,183,5,.08)}
+.check label{display:block;padding:3px 0;cursor:pointer}
+.cek{background:rgba(201,118,10,.14);border-radius:4px;padding:0 5px;font-size:14px}
+.tl{list-style:none;margin:10px 0;padding:0 0 0 18px;border-left:3px solid var(--accent)}
+.tl li{margin:0 0 12px;position:relative}
+.tl li::before{content:"";position:absolute;left:-26px;top:7px;width:11px;height:11px;border-radius:50%;background:var(--deep);border:2px solid var(--accent)}
+.tl b{display:block}
+table{border-collapse:collapse;width:100%;font-size:15px;margin:10px 0;display:block;overflow-x:auto}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}th{background:var(--shot)}
+ol,ul{padding-left:1.3em}li{margin:3px 0}
+.hide{display:none!important}
+footer{color:var(--mute);font-size:13px;padding:0 20px 40px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<h1>Guidebook Tutor FKK</h1>
+<p>Panduan untuk tutor ekskul Film &amp; Konten Kreator, dari hari pertama sampai akhir semester. Klik judul bagian untuk membukanya.</p>
+<span class="ver">Versi 2.0 (draft) · 9 Okt 2026</span>
+</div></header>
+
+<div class="bar"><div class="wrap">
+<input id="q" type="search" placeholder="Cari: clock-out, reimbursement, presensi..." aria-label="Cari di guidebook">
+<button id="open">Buka semua</button><button id="close">Tutup semua</button>
+</div></div>
+
+<main><div class="wrap layout">
+<nav aria-label="Daftar bagian">
+<a href="#mulai">Mulai di sini</a><a href="#harian">Satu hari mengajar</a><a href="#talenta">Talenta &amp; HR</a><a href="#dokumen">Dokumen &amp; sheet</a><a href="#ajar">Mengajar</a><a href="#faq">Pertanyaan umum</a><a href="#belum">Yang belum final</a>
+</nav>
+<div id="content">
+<p class="legend"><span class="tag t-ok" style="margin:0">Final</span> <span class="tag t-dr" style="margin:0">Draft</span> <span class="tag t-no" style="margin:0">Belum ada SOP</span> &nbsp;Kotak putus-putus = tempat screenshot. <span class="cek">Cek</span> = perlu dikonfirmasi.</p>
+
+<details class="sec" id="mulai"><summary>Mulai di sini <span class="tag t-dr">Draft</span></summary><div class="body">
+<details class="sub"><summary>Apa itu FKK?</summary><div>
+<p>FKK adalah Film &amp; Konten Kreator. Kita tutor yang mengajar ekskul film dan fotografi di sekolah-sekolah. Kamu perlu punya <b>perangkat</b> (HP/laptop) dan <b>kendaraan</b> untuk sampai ke sekolah.</p></div></details>
+<details class="sub"><summary>Siapa saja di tim?</summary><div>
+<table><tr><th>Peran</th><th>Kamu menghubungi untuk</th></tr>
+<tr><td>Manager Ekskul</td><td>Jadwal, plotting sekolah, approval harian</td></tr>
+<tr><td>Admin Ekskul</td><td>Data siswa, presensi, penilaian</td></tr>
+<tr><td>Admin Inventory</td><td>Kamera, Bag Kam, equipment</td></tr>
+<tr><td>HRD</td><td>Surat tugas, gaji, slip gaji, cuti</td></tr></table>
+<p>Tutor ada dua jenis: <b>staff tetap (PKWT)</b> dan <b>staff freelance</b>.</p></div></details>
+<details class="sub"><summary>Langkah bergabung</summary><div>
+<ol><li>Urus <b>surat tugas</b> dengan HRD. Gaji disepakati di awal.</li><li>Masuk <b>grup ekskul FKK</b> di WhatsApp.</li><li>Pakai aplikasi <b>Talenta</b> untuk absen dan pengajuan.</li><li>Bookmark <b>linktr.ee/fkklh</b>. Semua dokumen FKK ada di sana.</li></ol>
+<div class="shot"><b>[image_talenta-home]</b>Tampilan awal aplikasi Talenta</div>
+<div class="shot"><b>[image_linktree]</b>Halaman Linktree FKK</div></div></details>
+<details class="sub"><summary>Berapa hari saya mengajar?</summary><div>
+<table><tr><th>Status</th><th>Beban</th></tr><tr><td>Freelance</td><td>3 hari mengajar</td></tr><tr><td>Tetap (PKWT)</td><td>4 jadwal, hadir Senin sampai Jumat. Sabtu hanya bila ada jadwal.</td></tr></table>
+<p>Jadwal demo ekskul dan <i>funneling</i> di-plot oleh manager. Bila kamu masuk di tengah semester, jadwal mengajar langsung dibagikan manager.</p></div></details>
+</div></details>
+
+<details class="sec" id="harian"><summary>Satu hari mengajar, dari pagi sampai pulang <span class="tag t-dr">Draft</span></summary><div class="body">
+<p>Bagian ini ringkasan urutan kerja. Detail tiap langkah ada di bagian lain.</p>
+<ol class="tl">
+<li><b>Pagi: siapkan di kantor</b>Cek jadwal dan materi hari ini. Print worksheet dan presensi offline. Ambil kamera atau Bag Kam (mis. BAG 1) dan alat tambahan.</li>
+<li><b>Berangkat ke sekolah</b>Absen sesuai skenario di bagian Talenta. Simpan screenshot Google Maps untuk reimbursement.</li>
+<li><b>Mengajar</b>Ikuti materi di Weekly Planner. Ambil foto dokumentasi sesuai standar.</li>
+<li><b>Setelah mengajar</b>Isi Google Form log aktivitas, lalu forward BCan ke grup sekolah bersama foto. Isi presensi online siswa. Isi penilaian jika template sudah siap.</li>
+<li><b>Update dashboard</b>Perbarui tugas dan tanggal di Dashboard Individu.</li>
+<li><b>Clock-out dan pengajuan</b>Ajukan clock-out dengan lampiran, paling lambat 2 hari.</li></ol>
+<div class="check"><b>Cek sebelum berangkat</b>
+<label><input type="checkbox"> Materi pertemuan hari ini sudah dicek</label>
+<label><input type="checkbox"> Worksheet dan presensi offline sudah diprint</label>
+<label><input type="checkbox"> Kamera / Bag Kam dan baterai siap</label>
+<label><input type="checkbox"> Tripod, lampu, clapper, naskah sesuai materi</label></div>
+</div></details>
+
+<details class="sec" id="talenta"><summary>Talenta &amp; HR: absen, pengajuan, uang <span class="tag t-dr">Draft</span></summary><div class="body">
+<details class="sub"><summary>Clock-in dan clock-out</summary><div>
+<p>Contoh jam kerja: masuk 08.00, pulang 17.00. Ada toleransi 15 menit. Lewat dari itu, ada pengurangan sesuai SOP HR. <span class="cek">Cek: toleransi untuk clock-in, clock-out, atau keduanya?</span></p>
+<p>Clock di luar jangkauan lokasi memang bisa, tapi akan tampil <b>merah</b> dan harus lewat pengajuan. Sebaiknya dihindari.</p>
+<div class="shot"><b>[image_clock-in]</b>Tombol clock-in di Talenta</div>
+<div class="shot"><b>[image_clock-out]</b>Tombol clock-out di Talenta</div>
+<table><tr><th>Situasimu</th><th>Yang dilakukan</th></tr>
+<tr><td>Clock-in di kantor, lalu mengajar</td><td>Clock-out lewat pengajuan</td></tr>
+<tr><td>Jadwal mulai 15.00 atau lebih, atau sekolah lebih dari 10 km</td><td>Boleh langsung pulang, tidak perlu kembali ke kantor</td></tr></table>
+<p>Ekskul biasanya siang, jadi skenario langsung pulang paling sering terjadi.</p></div></details>
+<details class="sub"><summary>Pengajuan clock-out</summary><div>
+<p>Lampirkan dua hal:</p><ol><li>Screenshot log aktivitas yang sudah kamu isi di Google Form.</li><li>Foto dokumentasi bersama siswa, atau foto dokumentasi siswa.</li></ol>
+<p><b>Batas pengajuan: maksimal 2 hari.</b> Lewat dari itu, manager akan reject. Setiap sore manager membuka sesi approval. Pengajuan di hari yang sama akan di-accept.</p>
+<div class="shot"><b>[image_pengajuan-clockout]</b>Form pengajuan clock-out beserta lampiran</div></div></details>
+<details class="sub"><summary>Mengajar di hari Sabtu atau tanggal merah</summary><div>
+<ol><li>Ajukan presensi lebih dulu, misalnya 08.00 sampai 12.00.</li><li>Isi durasi lembur sesuai clock-in dan clock-out.</li></ol>
+<table><tr><th>Status</th><th>Kompensasi</th></tr><tr><td>Tetap</td><td>Rp 25.000, jauh atau dekat, mengajar atau event khusus <span class="cek">Cek: per hari?</span></td></tr><tr><td>Freelance</td><td>Mengikuti hitungan transport di bawah</td></tr></table>
+<div class="shot"><b>[image_pengajuan-presensi-sabtu]</b>Pengajuan presensi</div>
+<div class="shot"><b>[image_lembur]</b>Pengisian durasi lembur</div></div></details>
+<details class="sub"><summary>Reimbursement</summary><div>
+<p>Dua kategori: <b>transport mengajar</b> dan <b>di luar mengajar / lain-lain</b>.</p>
+<ul><li>Tarif <b>Rp 1.000 per km</b>.</li><li>Lampirkan <b>screenshot Google Maps</b> rute kantor ke sekolah.</li><li>Rute berantai boleh dijumlahkan: Kantor, Sekolah A, Sekolah B.</li><li>Perjalanan kembali ke kantor <b>tidak dihitung</b>.</li><li>Freelance dihitung dari kantor ke sekolah, jauh atau dekat sama, supaya adil.</li></ul>
+<div class="shot"><b>[image_reimbursement]</b>Form reimbursement</div>
+<div class="shot"><b>[image_gmaps]</b>Contoh screenshot rute Google Maps</div></div></details>
+<details class="sub"><summary>Cuti, slip gaji, dan daftar kehadiran</summary><div>
+<ul><li><b>Cuti</b> baru ada setelah 1 tahun menjadi karyawan tetap.</li><li><b>Slip gaji</b> dibuka dengan password. Atur di awal lewat HRD.</li><li><b>Daftar kehadiran</b> bisa dilihat di Talenta.</li></ul>
+<div class="shot"><b>[image_slip-gaji]</b>Menu slip gaji</div><div class="shot"><b>[image_log-kehadiran]</b>Menu log kehadiran</div></div></details>
+<details class="sub"><summary>Log aktivitas dan BCan</summary><div>
+<p>Setelah mengajar, isi Google Form log aktivitas. Kamu akan mendapat BCan. Forward ke <b>grup sekolah</b> bersama foto dokumentasi.</p>
+<p>Bila log belum diisi, kamu diingatkan di grup FKK. Sistem tidak tahu apakah sekolah sedang libur, jadi <b>konfirmasi ke manager</b> dulu. Jika memang tidak mengajar, tidak wajib mengisi.</p></div></details>
+</div></details>
+
+<details class="sec" id="dokumen"><summary>Dokumen &amp; sheet yang kamu pakai <span class="tag t-dr">Draft</span></summary><div class="body">
+<p>Semua dibuka dari Linktree. Tiap dokumen punya tujuan dan waktu pakai yang berbeda.</p>
+<details class="sub"><summary>01. Jadwal &amp; Info Sekolah</summary><div>
+<p><b>Untuk apa:</b> melihat jadwal mengajar, equipment, demo ekskul, dan info sekolah. Ada kolom AVAILABLE, UNAVAILABLE, dan CATATAN KHUSUS per hari.</p><p><b>Kamu:</b> membaca. Cek setiap awal minggu.</p>
+<div class="shot"><b>[image_jadwal-mengajar]</b>Tab jadwal mengajar</div><div class="shot"><b>[image_jadwal-equipment]</b>Tab jadwal equipment</div></div></details>
+<details class="sub"><summary>02. Dashboard Individu <span class="tag t-ok">Final</span></summary><div>
+<p><b>Untuk apa:</b> mencatat tugasmu. Gunakan tab sesuai namamu.</p>
+<p>Kolom: TASK, PROGRESS, STATUS, DIVISI, PRIORITAS, AS DATE, DUE DATE, END DATE, NOTES.</p>
+<ul><li><b>Tanggal wajib diisi.</b> Data itu langsung terangkum dan dipakai manager.</li><li>PROGRESS: 1 sampai 99 berarti on progress, 100 berarti DONE-FINISH. Untuk reschedule, tulis sesuai ketentuan <span class="cek">Cek aturannya</span>.</li><li>STATUS dan kolom dropdown lain <b>tidak perlu diisi manual</b>. Tarik saja dari baris di atasnya, rumus sudah ada.</li></ul>
+<div class="shot"><b>[image_dashboard-individu]</b>Tab dashboard milikmu</div></div></details>
+<details class="sub"><summary>Presensi FKK (kehadiran siswa)</summary><div>
+<p><b>Untuk apa:</b> mencatat kehadiran siswa tiap pertemuan. Isi sesuai aturan:</p>
+<ol><li>Jangan ubah rumus yang tersedia.</li><li>Sesuaikan jumlah checkbox dengan jumlah pertemuan sekolah.</li><li>Centang dan isi tanggal tiap pertemuan.</li><li>Isi dropdown dengan P / I / S / A / K.</li><li>Siswa keluar: pilih K, jangan dikosongkan.</li><li>Siswa baru: jangan isi presensi sebelum tanggal masuk.</li><li>Nomor siswa tidak boleh melebihi jumlah siswa.</li><li>Pastikan nama lengkap, kelas, dan level benar.</li><li>Pakai Ciutkan Grup (+/-) sebelum mencetak.</li><li>Jangan mengubah apa pun selain data yang diperlukan.</li><li>Bookmark link sekolahmu.</li><li>Jangan hapus data siswa keluar. Hanya Admin FKK yang boleh.</li><li>Siswa baru boleh ditambah, lalu konfirmasi ke Admin FKK.</li><li>Ada kendala? Hubungi Admin atau Manager Ekskul.</li></ol>
+<div class="shot"><b>[image_presensi]</b>Sheet presensi sekolahmu</div></div></details>
+<details class="sub"><summary>Penilaian, sertifikat, dan raport <span class="tag t-no">Belum ada SOP</span></summary><div>
+<p>Berisi penilaian pengetahuan, kemampuan, dan lainnya dengan rubrik. Admin akan memberi briefing cara mengisi. SOP khusus menyusul setelah sistem dipatenkan.</p>
+<div class="shot"><b>[image_penilaian]</b>Sheet penilaian</div></div></details>
+<details class="sub"><summary>Tracking progress (film, album siswa, sertifikat &amp; raport) <span class="tag t-no">Belum ada SOP</span></summary><div>
+<p>Dipakai untuk memantau short movie tiap sekolah, album siswa, dan pengiriman sertifikat serta raport. Film punya cara isi khusus dari awal sampai akhir. Album siswa dibuat di Canva memakai template yang disediakan.</p>
+<div class="shot"><b>[image_tracking-film]</b>Sheet tracking short movie</div></div></details>
+<details class="sub"><summary>Weekly Planner, Kurikulum &amp; Silabus</summary><div>
+<p><b>Untuk apa:</b> acuan materi tiap pertemuan. Tersedia pola 16, 14, 12, 10, dan 8 pertemuan sesuai sekolah. Tiap level punya project film, fotografi, dan videografi.</p>
+<div class="shot"><b>[image_weekly-plan]</b>Weekly Planner</div><div class="shot"><b>[image_kurikulum]</b>Profil kurikulum</div></div></details>
+</div></details>
+
+<details class="sec" id="ajar"><summary>Mengajar <span class="tag t-no">Belum ada SOP</span></summary><div class="body">
+<p>Bagian ini akan diisi bersama tutor berpengalaman supaya berasal dari praktik nyata.</p>
+<details class="sub"><summary>Film</summary><div><ul><li>Alur: ide dan premis, naskah, breakdown shotlist dan photoboard, shooting, finalisasi, poster</li><li>Worksheet per pertemuan</li><li>Contoh alur satu pertemuan <span class="cek">menunggu isi</span></li></ul></div></details>
+<details class="sub"><summary>Photography</summary><div><ul><li>Project per level, mis. Toys Photo, Documentation, Product, Story, Motion, Portrait</li><li>Editing karya di smartphone</li><li>Contoh alur satu pertemuan <span class="cek">menunggu isi</span></li></ul></div></details>
+<details class="sub"><summary>Bekerja dengan SDM magang</summary><div><ul><li>Kapan magang boleh dilibatkan</li><li>Pembagian tugas dan cara briefing</li><li>Batas tanggung jawab <span class="cek">menunggu isi</span></li></ul></div></details>
+</div></details>
+
+<details class="sec" id="faq"><summary>Pertanyaan umum <span class="tag t-dr">Draft</span></summary><div class="body">
+<details class="sub"><summary>Saya lupa mengajukan clock-out kemarin.</summary><div>Selama belum lewat 2 hari, ajukan sekarang dengan lampiran lengkap. Lewat dari itu, pengajuan akan di-reject.</div></details>
+<details class="sub"><summary>Sekolah libur, apakah saya tetap isi log aktivitas?</summary><div>Konfirmasi ke manager dulu. Bila memang tidak mengajar, tidak wajib mengisi.</div></details>
+<details class="sub"><summary>Saya langsung ke sekolah dan tidak lewat kantor. Rute reimbursement-nya?</summary><div>Freelance dihitung dari kantor ke sekolah. Untuk staff tetap, ikuti kebijakan HRD <span class="cek">Cek</span>.</div></details>
+<details class="sub"><summary>Siapa yang saya hubungi kalau data siswa salah?</summary><div>Admin FKK. Kamu tidak boleh menghapus data siswa.</div></details>
+</div></details>
+
+<details class="sec" id="belum"><summary>Yang belum final <span class="tag t-no">Daftar kerja</span></summary><div class="body">
+<ul><li>Alur funneling demo ekskul</li><li>SOP foto dokumentasi</li><li>Cara isi tracking film dan album Canva</li><li>Rubrik penilaian, sertifikat, raport</li><li>Isi bagian Mengajar</li><li>Kontak HRD, manager, admin</li></ul>
+<p>Riwayat revisi: v1.0 kerangka awal (7 Okt 2026) · v2.0 versi HTML interaktif (9 Okt 2026)</p>
+</div></details>
+</div></div></main>
+<footer><div class="wrap">Guidebook ini hidup. Bagian yang berubah akan diperbarui dan versinya dicatat di bagian terakhir.</div></footer>
+
+<script>
+var secs=[].slice.call(document.querySelectorAll("details")),q=document.getElementById("q");
+document.getElementById("open").onclick=function(){secs.forEach(function(d){d.open=true})};
+document.getElementById("close").onclick=function(){secs.forEach(function(d){d.open=false})};
+q.oninput=function(){var t=q.value.trim().toLowerCase();
+document.querySelectorAll("details.sec").forEach(function(s){var subs=[].slice.call(s.querySelectorAll("details.sub")),any=false;
+subs.forEach(function(d){var m=!t||d.textContent.toLowerCase().indexOf(t)>-1;d.classList.toggle("hide",!m);if(m&&t){d.open=true}if(m)any=true});
+var self=!t||s.querySelector("summary").textContent.toLowerCase().indexOf(t)>-1||any;
+s.classList.toggle("hide",!self);if(t&&any)s.open=true;if(!t){s.open=false;subs.forEach(function(d){d.open=false})}})};
+if(location.hash){var e=document.querySelector(location.hash);if(e&&e.tagName==="DETAILS")e.open=true}
+document.querySelectorAll("nav a").forEach(function(a){a.addEventListener("click",function(){var e=document.querySelector(a.getAttribute("href"));if(e)e.open=true})});
+</script>
+</body>
+</html>
